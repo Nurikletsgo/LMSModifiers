@@ -9,6 +9,7 @@ public class Main {
      areaны табуу учун: PI * (radius * radius)
      circumferenceти табуу учун PI * 2 * radius деген формулалар колдонулат */
 
+        System.out.println("test");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Write the radius : ");
         Circle circle = new Circle (scanner.nextDouble());
